@@ -14,8 +14,7 @@
     10. ratings
 
 - Users can search by movie name
-- User can search by year
-- filter by ott released, language, ratings
+- filter by year, ott released, language, ratings
 - Users can get details of movie.
 - Users will be able to search from the names star casts, list of movies should be returned.
 
