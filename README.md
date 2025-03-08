@@ -17,5 +17,5 @@
 - filter by year, ott released, language, ratings
 - Users can get details of movie.
 - Users will be able to search from the names star casts, list of movies should be returned.
-
+- Users can search for the star casts of the particular movie.
 
