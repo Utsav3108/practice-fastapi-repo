@@ -1,6 +1,7 @@
 from fastapi import APIRouter
 
 from typing import List
+import random
 
 from model import Movie, Actor
 from movie_data import MovieData
@@ -152,3 +153,10 @@ def sort_movies_by_collection_in_worldwide(desc : bool = True):
 
 
     return sorted_movies
+
+@router.get("/movie/random")
+def get_random_movie():
+    
+    rand_index = random.randint(0, len(MovieData) - 1)
+
+    return MovieData[rand_index]
