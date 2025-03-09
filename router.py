@@ -3,7 +3,7 @@ from fastapi import APIRouter
 from typing import List
 import random
 
-from model import Movie, Actor
+from model import Movie
 from movie_data import MovieData
 
 import uuid
@@ -117,7 +117,7 @@ def search_movie_by_ott_released(ott : str):
     return searched_movie
 
 @router.get("/search/stars")
-def search_movie_by_ott_released(starcast_name : str):
+def search_stars(starcast_name : str):
     searched_movie = []
 
     for movie in MovieData:
