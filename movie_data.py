@@ -12,7 +12,7 @@ MovieData : List[Movie] = []
     "name": "Inception",
     "year_of_release": "2010",
     "link_to_Thumbnail": "string",
-    "ott_released": "Netflix, Prime",
+    "ott_released": ["Netflix", "Prime"],
     "box_office_collection_india": 15000000,
     "box_office_collection_worldwide": 829895144,
     "star_casts": [
@@ -24,14 +24,14 @@ MovieData : List[Movie] = []
       }
     ],
     "language": "English",
-    "ratings": 2
+    "ratings": 4.8
   },
   {
     "id": "c0a80101-7654-4b3d-a9c8-87f4c91baf77",
     "name": "The Dark Knight",
     "year_of_release": "2008",
     "link_to_Thumbnail": "string",
-    "ott_released": "HBO Max, Prime",
+    "ott_released": ["HBO Max", "Prime"],
     "box_office_collection_india": 18000000,
     "box_office_collection_worldwide": 1004558444,
     "star_casts": [
@@ -43,14 +43,14 @@ MovieData : List[Movie] = []
       }
     ],
     "language": "English",
-    "ratings": 2
+    "ratings": 4.9
   },
   {
     "id": "c69d5d6b-1a4f-4b97-bc72-72a7fcd85d66",
     "name": "Interstellar",
     "year_of_release": "2014",
     "link_to_Thumbnail": "string",
-    "ott_released": "Netflix",
+    "ott_released": ["Netflix"],
     "box_office_collection_india": 22000000,
     "box_office_collection_worldwide": 677471339,
     "star_casts": [
@@ -62,14 +62,14 @@ MovieData : List[Movie] = []
       }
     ],
     "language": "English",
-    "ratings": 5
+    "ratings": 4.7
   },
   {
     "id": "5b8db640-2b74-11eb-adc1-0242ac120002",
     "name": "Avengers: Endgame",
     "year_of_release": "2019",
     "link_to_Thumbnail": "string",
-    "ott_released": "Disney+",
+    "ott_released": ["Disney+"],
     "box_office_collection_india": 373000000,
     "box_office_collection_worldwide": 2797800564,
     "star_casts": [
@@ -81,14 +81,14 @@ MovieData : List[Movie] = []
       }
     ],
     "language": "English",
-    "ratings": 5
+    "ratings": 4.5
   },
   {
     "id": "7f31f074-2b74-11eb-adc1-0242ac120002",
     "name": "Titanic",
     "year_of_release": "1997",
     "link_to_Thumbnail": "string",
-    "ott_released": "Prime, Disney+",
+    "ott_released": ["Prime", "Disney+"],
     "box_office_collection_india": 25000000,
     "box_office_collection_worldwide": 2201647264,
     "star_casts": [
@@ -100,14 +100,14 @@ MovieData : List[Movie] = []
       }
     ],
     "language": "English",
-    "ratings": 3
+    "ratings": 4.6
   },
   {
     "id": "8f9d68e2-2b74-11eb-adc1-0242ac120002",
     "name": "3 Idiots",
     "year_of_release": "2009",
     "link_to_Thumbnail": "string",
-    "ott_released": "Netflix, Prime",
+    "ott_released": ["Netflix", "Prime"],
     "box_office_collection_india": 202000000,
     "box_office_collection_worldwide": 460000000,
     "star_casts": [
@@ -119,14 +119,14 @@ MovieData : List[Movie] = []
       }
     ],
     "language": "Hindi",
-    "ratings": 1
+    "ratings": 4.9
   },
   {
     "id": "a19c2364-2b74-11eb-adc1-0242ac120002",
     "name": "Dangal",
     "year_of_release": "2016",
     "link_to_Thumbnail": "string",
-    "ott_released": "Disney+",
+    "ott_released": ["Disney+"],
     "box_office_collection_india": 387000000,
     "box_office_collection_worldwide": 2008000000,
     "star_casts": [
@@ -138,14 +138,14 @@ MovieData : List[Movie] = []
       }
     ],
     "language": "Hindi",
-    "ratings": 2
+    "ratings": 4.3
   },
   {
     "id": "b3de75a6-2b74-11eb-adc1-0242ac120002",
     "name": "Sholay",
     "year_of_release": "1975",
     "link_to_Thumbnail": "string",
-    "ott_released": "Prime",
+    "ott_released": ["Prime"],
     "box_office_collection_india": 15000000,
     "box_office_collection_worldwide": 30000000,
     "star_casts": [
@@ -157,14 +157,14 @@ MovieData : List[Movie] = []
       }
     ],
     "language": "Hindi",
-    "ratings": 1
+    "ratings": 4.8
   },
   {
     "id": "c6a73db4-2b74-11eb-adc1-0242ac120002",
     "name": "Baahubali 2: The Conclusion",
     "year_of_release": "2017",
     "link_to_Thumbnail": "string",
-    "ott_released": "Netflix, Prime",
+    "ott_released": ["Netflix", "Prime"],
     "box_office_collection_india": 510000000,
     "box_office_collection_worldwide": 1810000000,
     "star_casts": [
@@ -176,14 +176,14 @@ MovieData : List[Movie] = []
       }
     ],
     "language": "Telugu",
-    "ratings": 4
+    "ratings": 4.4
   },
   {
     "id": "d91f34a8-2b74-11eb-adc1-0242ac120002",
     "name": "KGF: Chapter 2",
     "year_of_release": "2022",
     "link_to_Thumbnail": "string",
-    "ott_released": "Prime",
+    "ott_released": ["Prime"],
     "box_office_collection_india": 850000000,
     "box_office_collection_worldwide": 1250000000,
     "star_casts": [
@@ -195,7 +195,7 @@ MovieData : List[Movie] = []
       }
     ],
     "language": "Kannada",
-    "ratings": 3
+    "ratings": 4.2
   }
 ]
 

@@ -17,9 +17,9 @@ class Movie(BaseModel):
     name : str
     year_of_release : str
     link_to_Thumbnail : str
-    ott_released : str
+    ott_released : List[str]
     box_office_collection_india : float
     box_office_collection_worldwide : float
     star_casts : List[Actor]
     language : str
-    ratings : int
+    ratings : float
