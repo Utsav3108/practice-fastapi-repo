@@ -9,17 +9,16 @@ class Actor(BaseModel):
     fname : str
     lname : str
     dob : str
-    
 
-
-class Movie(BaseModel):
-    id : uuid.UUID
+class MovieDetails(BaseModel):
     name : str
     year_of_release : str
-    link_to_Thumbnail : str
-    ott_released : List[str]
+    link_to_thumbnail : str
+    ott_released : str
     box_office_collection_india : float
     box_office_collection_worldwide : float
-    star_casts : List[Actor]
     language : str
     ratings : float
+
+class Movie(MovieDetails):
+    star_casts : List[Actor]

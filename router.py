@@ -1,21 +1,32 @@
 from fastapi import APIRouter
 
 from typing import List
-import random
 
-from model import Movie
+
+from model import Movie, MovieDetails, Actor
 from movie_data import MovieData
 
 import uuid
-
 import difflib
+import random
+from supabase_main import Supabase
 
+supabase = Supabase()
 router = APIRouter()
 
 def publish_movie(movie : Movie):
-    movie.id = uuid.uuid4()
+
+    #movie.id = uuid.uuid4()
+    actors = movie.star_casts
+    details : MovieDetails = movie
+
+    del details.star_casts
+
+    print("dump : ", details.model_dump())
+
     MovieData.append(movie)
 
+    supabase.insert(table="Movie_table", data=details.model_dump())
     return movie
 
 @router.post("/publish")
